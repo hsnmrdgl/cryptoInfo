@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.3.1/p5.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.10.2/addons/p5.sound.min.js"></script>
+    <script src="sketch.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="utf-8" />
+    
+    <title>Crypto Info</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Krona+One&display=swap" rel="stylesheet">
+
+  </head>
+
+  <body>
+    <section id="section">
+
+      <select name="coins" id="coins">
+        <option value="">----------Select----------</option>
+        <option value="aave">Aave</option>
+        <option value="algorand">Algorand</option>
+        <option value="amp-token">Amp</option>
+        <option value="avalanche-2">Avalanche</option>
+        <option value="binance-usd">Binance USD</option>
+        <option value="bitcoin">Bitcoin</option>
+        <option value="bitcoin-cash">Bitcoin Cash</option>
+        <option value="cardano">Cardano</option>
+        <option value="cdai">cDAI</option>
+        <option value="celsius-degree-token">Celcius Network</option>
+        <option value="compound-ether">cETH</option>
+        <option value="chainlink">Chainlink</option>
+        <option value="compound-governance-token">Compound</option>
+        <option value="cosmos">Cosmos</option>
+        <option value="crypto-com-chain">Crypto.com Coin</option>
+        <option value="compound-usd-coin">cUSDC</option>
+        <option value="dai">Dai</option>
+        <option value="dogecoin">Dogecoin</option>
+        <option value="eos">EOS</option>
+        <option value="ethereum">Ethereum</option>
+        <option value="ethereum-classic">Ethereum Classic</option>
+        <option value="filecoin">Filecoin</option>
+        <option value="ftx-token">FTX Token</option>
+        <option value="internet-computer">Internet Computer</option>
+        <option value="iota">IOTA</option>
+        <option value="klay-token">Klaytn</option>
+        <option value="leo-token">LEO Token</option>
+        <option value="litecoin">Litecoin</option>
+        <option value="maker">Maker</option>
+        <option value="monero">Monero</option>
+        <option value="neo">NEO</option>
+        <option value="okb">OKB</option>
+        <option value="pancakeswap-token">PancakeSwap</option>
+        <option value="polkadot">Polkadot</option>
+        <option value="matic-network">Polygon</option>
+        <option value="ripple">Ripple</option>
+        <option value="shiba-inu">Shiba Inu</option>
+        <option value="stellar">Stellar</option>
+        <option value="solana">Solana</option>
+        <option value="terra-luna">Terra</option>
+        <option value="tether">Tether</option>
+        <option value="tezos">Tezos</option>
+        <option value="theta-token">Theta Network</option>
+        <option value="tron">TRON</option>
+        <option value="uniswap">Uniswap</option>
+        <option value="usd-coin">USD Coin</option>
+        <option value="vechain">VeChain</option>
+        <option value="wrapped-bitcoin">Wrapped Bitcoin</option>
+        
+      </select>
+
+      <br><br>
+      
+      <select name="money", id="money">
+        <option value="">----------Select----------</option>
+        <option value="usd">USD</option>
+        <option value="try">TRY</option>
+      </select>
+
+      <br><br>
+
+      <button id="submit">Search</button>
+      <br>
+
+      <p id="resultPrice"></p>
+
+      <label id="img"></label>
+      
+      <br><br>
+
+      <p id="high_24h"></p>
+
+      <p id="low_24h"></p>
+
+      <p id="price_change_24h"></p>
+
+      <p id="price_change_percentage_24h"></p>
+
+      <br><br>
+
+      <label id="desc"></label>
+
+    </section>  
+  </body>
+
+</html>
