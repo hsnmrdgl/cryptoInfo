@@ -10,7 +10,7 @@ With its Dockerfile, it can be run as a container on the Docker desktop applicat
 
 ▶️ First building an image for container.
 
-``docker build -t [IMAGE NAME HERE] .``
+``docker build -t [IMAGE NAME] .``
 
 ▶️ Then run container on image created before.
 
